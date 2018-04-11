@@ -1,0 +1,30 @@
+SST Stake
+---------------------------------------------------------
+Copyright 2018, Tactical Computing Laboratories, LLC
+---------------------------------------------------------
+See LICENSE for licensing details
+---------------------------------------------------------
+
+The SST "Stake" generator component directly fuses
+the RISC-V "Spike" functional simulation infrastructure
+to the memory infrastructure simulation capabilities
+present in the SST parallel discrete event simulator
+developed and distributed by Sandia National
+Laboratories.  Stake permits users to compile
+and execute binary applications in the Spike
+simulator while dispatching each individual
+memory request into the SST simulation infrastructure.
+As a result, users have the ability to functionally
+simulate arithmetic operations while simulating
+memory operations with a cycle-based cadence.
+
+Stake requires users to build and install
+the SST and SST-Elements infrastructure using
+the 8.0.0 release or master trees (see git link below).
+
+Git Repos:
+SST Core: https://github.com/sstsimulator/sst-core
+SST Elements: https://github.com/sstsimulator/sst-elements
+Stake RISC-V ISA Sim: https://github.com/tactcomplabs/riscv-isa-sim
+
+EOF
